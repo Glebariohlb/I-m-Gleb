@@ -1,0 +1,287 @@
+body{
+  background-color: #fff5ee;
+  margin: 0;
+}
+
+.home{
+  position: static;
+  margin: 0;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 150%;
+  background-color: #fff5ee;
+  color: #424242;
+  border-color: #424242;
+  border-style: double;
+  cursor: pointer;
+  transition: 0.2s ease;  
+  transform: translate(10%, 30%);
+}
+
+button:active{
+  background-color: #424242;
+  color: #fff5ee;
+}
+
+.description {
+  color: #424242;
+  font-family: "Cascadia Code";
+  font-size: 200%;
+}
+
+.txt{
+  position: absolute;
+  transform: translate(2%, 20%);
+}
+
+.down-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 16%;
+}
+
+.descrp-pht {
+  gap: 30%;
+  justify-content: center;
+
+  color: #424242;
+  font-family: Cascadia Code;
+  font-size: 150%;
+
+  transform: translate(-4%, 1287%);
+}
+
+@media (min-width: 375px) {
+  
+  .txt-pc{
+    display: none;
+  }
+  
+  .down-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    transform: translateX(-6%);
+  }
+
+  .txt-lptp{
+    display: none;
+  }
+
+  .code{
+    display: none;
+  }
+
+  .description-mb {
+    color: #424242;
+    font-family: "Cascadia Code";
+    font-size: 150%;
+  }
+
+  .txt{
+    position: absolute;
+    transform: translate(4%, 4%);
+  }
+
+  .git-mb{
+    position: static;
+    margin: 0;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+    font-size: 150%;
+    background-color: #fff5ee;
+    color: #424242;
+    border-color: #424242;
+    border-style: double;
+    cursor: pointer;
+    transition: 0.2s ease; 
+    transform: translate(13%, 50%);
+    margin-bottom: 15%;
+  }
+
+  .git-mb:active{
+    background-color: #424242;
+    color: #fff5ee;
+  }
+}
+
+@media (min-width: 720px) {
+  .txt{
+    display: none;
+  }
+
+  .txt-pc{
+    display: none;
+  }
+
+  .txt-lptp{
+    display: block;
+    width: 720px;
+    transform: translate(4%, 5%);
+  }
+
+  .down-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+  }
+
+  .git-lptp{
+    position: static;
+    margin: 0;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+    font-size: 150%;
+    background-color: #fff5ee;
+    color: #424242;
+    border-color: #424242;
+    border-style: double;
+    cursor: pointer;
+    transition: 0.2s ease; 
+    transform: translate(60%, 60%);
+    margin-bottom: 15%;
+  }
+
+  .git-lptp:active{
+    background-color: #424242;
+    color: #fff5ee;
+  }
+}
+
+@media (min-width: 1440px) {
+  .txt{
+    display: none;
+  }
+
+  .txt-lptp{
+    display: none;
+  }
+
+  .git-pc2{
+    display: none;
+  }
+
+  .git-pc3{ 
+    display: none;
+  }
+
+  .txt-pc{
+    display: block;
+    width: 1200px;
+    font-size: 130%;
+    transform: translate(9%, 10%);
+  }
+
+  .down-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+  }
+
+  .git-pc{
+    position: static;
+    margin: 0;
+    border-radius: 20px;
+    width: 400px;
+    height: 50px;
+    font-size: 150%;
+    background-color: #fff5ee;
+    color: #424242;
+    border-color: #424242;
+    border-style: double;
+    cursor: pointer;
+    transition: 0.2s ease; 
+    transform: translate(80%, 60%);
+    margin-bottom: 5%;
+  }
+
+  .git:active{
+    background-color: #424242;
+    color: #fff5ee;
+  }
+}
+
+@media (min-width: 1880px) {
+
+  .txt-pc{
+    display: block;
+    width: 1500px;
+  }
+
+  .git-pc{
+    display: none;
+  }
+
+  .git-pc3{
+    display: none;
+  }
+
+  .txt-lptp{
+    display: none;
+  }
+
+  .git-pc2{
+    position: static;
+    margin: 0;
+    border-radius: 20px;
+    width: 400px;
+    height: 50px;
+    display: inline;
+    font-size: 150%;
+    background-color: #fff5ee;
+    color: #424242;
+    border-color: #424242;
+    border-style: double;
+    cursor: pointer;
+    transition: 0.2s ease; 
+    transform: translate(120%, 60%);
+  }
+
+  .git-pc2:active{
+    background-color: #424242;
+    color: #fff5ee;
+  }
+}
+
+@media (min-width: 1917px) {
+  .txt-pc{
+    display: block;
+    width: 1550px;
+    transform: translate(10%, 20%);
+  }
+
+  .txt-lptp{
+    display: none;
+  }
+
+  .git{
+    position: static;
+    margin: 0;
+    border-radius: 20px;
+    width: 400px;
+    height: 50px;
+    font-size: 150%;
+    background-color: #fff5ee;
+    color: #424242;
+    border-color: #424242;
+    border-style: double;
+    cursor: pointer;
+    transition: 0.2s ease; 
+    transform: translate(144%, 65%);
+    margin-bottom: 5%;
+  }
+
+  .git:active{
+    background-color: #424242;
+    color: #fff5ee;
+  }
+
+  .down-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+}

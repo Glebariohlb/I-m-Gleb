@@ -1,0 +1,263 @@
+body{
+  background-color: #fff5ee;
+  margin: 0;
+}
+
+.home{
+  position: static;
+  margin: 0;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 150%;
+  background-color: #fff5ee;
+  color: #424242;
+  border-color: #424242;
+  border-style: double;
+  cursor: pointer;
+  transition: 0.2s ease;  
+  transform: translate(10%, 30%);
+  cursor: pointer;
+}
+
+button:active{
+  background-color: #424242;
+  color: #fff5ee;
+}
+
+.vlbl{
+  position: static;
+  margin: 0;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 150%;
+  background-color: #fff5ee;
+  color: #424242;
+  border-color: #424242;
+  border-style: double;
+  cursor: pointer;
+  transition: 0.2s ease;
+  cursor: pointer;
+  margin-bottom: 2%;
+}
+
+.pht{
+  position: static;
+  margin: 0;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 150%;
+  background-color: #fff5ee;
+  color: #424242;
+  border-color: #424242;
+  border-style: double;
+  cursor: pointer;
+  transition: 0.2s ease;
+  cursor: pointer;
+  margin-bottom: 2%;
+}
+
+.prg{
+  position: static;
+  margin: 0;
+  border-radius: 20px;
+  width: 240px;
+  height: 50px;
+  font-size: 150%;
+  background-color: #fff5ee;
+  color: #424242;
+  border-color: #424242;
+  border-style: double;
+  cursor: pointer;
+  transition: 0.2s ease;  
+  cursor: pointer;
+}
+
+.hobbies{
+  font-family: "Cascadia Code";
+  color: #424242;
+  font-size: 250%;
+  position: static;
+  margin: 0;
+}
+
+article{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  transform: translateY(240%);
+}
+
+nav{
+  width: min-content;
+  transform: translate(350%, 160%);
+}
+
+@media (min-width: 375px) {
+  .hobbies{
+    font-family: "Cascadia Code";
+    color: #424242;
+    font-size: 240%;
+    position: static;
+    transform: translateY(-150%);
+    margin: 0;
+  }
+
+  .vlbl{
+  position: static;
+  margin: 0;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 150%;
+  background-color: #fff5ee;
+  color: #424242;
+  border-color: #424242;
+  border-style: double;
+  cursor: pointer;
+  transition: 0.2s ease;
+  cursor: pointer;
+  margin-bottom: 2%;
+}
+
+.pht{
+  position: static;
+  margin: 0;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 150%;
+  background-color: #fff5ee;
+  color: #424242;
+  border-color: #424242;
+  border-style: double;
+  cursor: pointer;
+  transition: 0.2s ease;
+  cursor: pointer;
+  margin-bottom: 2%;
+}
+
+.prg{
+    position: static;
+    margin: 0;
+    border-radius: 20px;
+    width: 240px;
+    height: 50px;
+    font-size: 150%;
+    background-color: #fff5ee;
+    color: #424242;
+    border-color: #424242;
+    border-style: double;
+    cursor: pointer;
+    transition: 0.2s ease;  
+    cursor: pointer;
+  }
+
+  nav{
+  width: min-content;
+  transform: translate(40%, 135%);
+  }
+
+  .home{
+  position: static;
+  margin: 0;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 150%;
+  background-color: #fff5ee;
+  color: #424242;
+  border-color: #424242;
+  border-style: double;
+  cursor: pointer;
+  transition: 0.2s ease;  
+  transform: translate(9%, 30%);
+  cursor: pointer;
+}
+
+  button:active{
+    background-color: #424242;
+    color: #fff5ee;
+  }
+}
+
+@media (min-width: 720px) {
+  .home{
+    position: static;
+    margin: 0;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 150%;
+    background-color: #fff5ee;
+    color: #424242;
+    border-color: #424242;
+    border-style: double;
+    cursor: pointer;
+    transition: 0.2s ease;  
+    transform: translate(10%, 30%);
+    cursor: pointer;
+  }
+
+  button:active{
+    background-color: #424242;
+    color: #fff5ee;
+  }
+
+  .hobbies{
+    font-family: "Cascadia Code";
+    color: #424242;
+    font-size: 250%;
+    position: static;
+    margin: 0;
+  }
+
+  article{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transform: translateY(260%);
+  }
+
+  nav{
+    width: min-content;
+    transform: translate(100%, 100%);
+  }
+}
+
+@media (min-width: 1440px){
+  nav{
+    width: min-content;
+    transform: translate(260%, 183%);
+  }
+
+  article{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transform: translateY(420%);
+  }
+}
+
+@media (min-width: 1878px) {
+  nav{
+    width: min-content;
+    transform: translate(350%, 190%);
+  }
+}
+
+@media (min-width: 1917px) {
+  article{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transform: translateY(500%);
+  }
+
+  nav{
+    width: min-content;
+    transform: translate(350%, 230%);
+  }
+}

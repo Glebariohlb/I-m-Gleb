@@ -1,0 +1,105 @@
+body{
+  background-color: #fff5ee;
+  margin: 0;
+}
+
+.home{
+  position: static;
+  margin: 0;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 150%;
+  background-color: #fff5ee;
+  color: #424242;
+  border-color: #424242;
+  border-style: double;
+  cursor: pointer;
+  transition: 0.2s ease;  
+  transform: translate(10%, 30%);
+}
+
+button:active{
+  background-color: #424242;
+  color: #fff5ee;
+}
+
+.photograph{
+  font-size: 200%;
+  font-family: "Cascadia Code";
+  color: #424242;
+}
+
+article{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  transform: translateY(60%);
+}
+
+.pc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(20%);
+  gap: 1%;
+}
+
+@media (min-width: 375px) {
+  .pc{
+    display: none;
+  }
+
+  .other-device{
+    transform: translate(5.5%, 7%);
+  }
+}
+
+@media (min-width: 720px) {
+  .pc{
+    display: none;
+  }
+
+  .mb{
+    display: none;
+  }
+
+  .ones{
+    transform: translate(10%, 20%);
+  }
+  .second{
+    transform: translate(10%, 20%);
+  }
+  .third{
+    transform: translate(10%, 20%);
+  }
+  .fourth{
+    transform: translate(10%, 20%);
+  }
+
+  .other-device{
+    transform: translateX(-3%);
+    margin-bottom: 15%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .other-device{
+    display: none;
+  }
+
+  .pc{
+    display: block;
+    transform: translate(5%, 10%);
+    margin-bottom: 10%;
+    width: 1300px;
+  }
+}
+
+@media (min-width: 1880px) {
+  .pc{
+    transform: translate(2%, 8%);
+    width: 1790px;
+    margin-bottom: 6%;
+  }
+}

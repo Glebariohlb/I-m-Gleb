@@ -1,0 +1,283 @@
+body{
+  background-color: #fff5ee;
+  margin: 0;
+}
+
+.home{
+  position: static;
+  margin: 0;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 150%;
+  background-color: #fff5ee;
+  color: #424242;
+  border-color: #424242;
+  border-style: double;
+  cursor: pointer;
+  transition: 0.2s ease;  
+  transform: translate(10%, 30%);
+}
+
+button:active{
+  background-color: #424242;
+  color: #fff5ee;
+}
+
+.mobile-only{
+  font-family: 'Cascadia Code';
+  color: #424242;
+  font-size: 200%;
+  transform: translate(7%, 40%);
+  display: inline-block;
+}
+
+.text-place{
+  color: #424242;
+  font-size: 150%;
+  height: fit-content;
+}
+
+nav{
+  border: 2px double #424242;
+  padding: 18px;
+  font-family: 'Cascadia Code';
+  position: absolute;
+  transform: translate(255%, -55%); 
+  background-color: #f0e5de;
+}
+
+.immg{
+  transform: translateX(15%);
+}
+
+@media (min-width: 375px) {
+  br.mb-enter{
+    display: inline;
+  }
+
+  .pc-img{
+    display: none;
+  }
+
+  p.mobile-only{
+    display: inline-block;
+  }
+
+  .tablet{
+    display: none;
+  }
+
+  .pc{
+    display: none;
+  }
+
+  .mobile-only{
+    font-family: 'Cascadia Code';
+    color: #424242;
+    font-size: 140%;
+    transform: translate(12%, 8%);
+    display: inline-block;
+  }
+
+  article{
+    max-width: 341px;
+  }
+
+  .text-place{
+    color: #424242;
+    font-size: 150%;
+    height: fit-content;
+  }
+
+  nav{
+    display: block;
+    border: 2px double #424242;
+    padding: 13px;
+    max-width: 355px;
+    font-family: 'Cascadia Code';
+    transform: translate(3.5%, 20%); 
+    background-color: #f0e5de;
+  }
+
+  .immg{
+    transform: translateX(11%);
+  }
+}
+
+@media (min-width: 720px) {
+  br.mb-enter{
+    display: none;
+  }
+
+  .pc-img{
+    display: none;
+  }
+
+  .mobile{
+    display: none;
+  }
+
+  .pc{
+    display: none;
+  }
+
+  .tablet{
+    display: block;
+  }
+
+  article{
+    max-width: 97%;
+  }
+
+  .tablet-only{
+    font-family: 'Cascadia Code';
+    color: #424242;
+    font-size: 150%;
+    transform: translate(3%, 20%);
+    display: inline-block;
+  }
+
+  .text-place{
+    color: #424242;
+    font-size: 150%;
+    height: fit-content;
+  }
+
+  nav{
+    display: block;
+    border: 2px double #424242;
+    padding: 13px;
+    max-width: 355px;
+    font-family: 'Cascadia Code';
+    transform: translate(50%, 15%); 
+    background-color: #f0e5de;
+  }
+
+  .immg{
+    transform: translateX(11%);
+  }
+}
+
+@media (min-width: 1440px) {
+  br.tblt-enter{
+    display: none;
+  }
+  br.mb-enter{
+    display: none;
+  }
+  .tablet{
+    display: none;
+  }
+  .mobile{
+    display: none;
+  }
+  .pc{
+    display: block;
+  }
+  .pc-img{
+    display: none;
+  }
+
+  .pc-only{
+    font-family: 'Cascadia Code';
+    color: #424242;
+    font-size: 180%;
+    transform: translate(7%, 40%);
+    display: inline-block;
+  }
+
+  .text-place{
+    color: #424242;
+    font-size: 150%;
+    height: fit-content;
+  }
+
+  article{
+    max-width: 60%;
+  }
+
+  nav{
+    border: 2px double #424242;
+    padding: 18px;
+    font-family: 'Cascadia Code';
+    position: absolute;
+    transform: translate(250%, -60%); 
+    background-color: #f0e5de;
+  }
+
+  .immg{
+    transform: translateX(13%);
+  }
+
+}
+
+@media (min-width: 1878px) {
+  .pc-img{
+    display: inline;
+  }
+  
+  .all{
+    display: none;
+  }
+
+  .tablet{
+    display: none;
+  }
+
+  .mobile{
+    display: none;
+  }
+
+  .pc{
+    display: block;
+  }
+
+  .home{
+    position: static;
+    margin: 0;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 150%;
+    background-color: #fff5ee;
+    color: #424242;
+    border-color: #424242;
+    border-style: double;
+    cursor: pointer;
+    transition: 0.2s ease;  
+    transform: translate(20%, 30%);
+  }
+
+  button:active{
+    background-color: #424242;
+    color: #fff5ee;
+  }
+
+  .pc-only{
+    font-family: 'Cascadia Code';
+    color: #424242;
+    font-size: 200%;
+    transform: translate(5%, 50%);
+  }
+
+  .text-place{
+    color: #424242;
+    font-size: 150%;
+    height: fit-content;
+  }
+
+  nav{
+    border: 2px double #424242;
+    padding: 40px;
+    font-family: 'Cascadia Code';
+    position: absolute;
+    transform: translate(300%, -55%); 
+    background-color: #f0e5de;
+    margin: 0;
+  }
+
+  .immg{
+    transform: translateX(-2%);
+  }
+}

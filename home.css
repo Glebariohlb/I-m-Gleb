@@ -1,0 +1,265 @@
+body{
+  background-color: #fff5ee;
+  margin: 0;
+}
+
+.content{
+  font-family: "Cascadia Code";
+  color: #424242;
+  font-size: 250%;
+  position: absolute;
+  margin: 0;
+  transform: translate(30%, 200%)
+}
+
+.btn1{
+  position: static;
+  margin: 0;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 150%;
+  background-color: #fff5ee;
+  color: #424242;
+  border-color: #424242;
+  transform: translate(250%, 900%);
+  border-style: double;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn2{
+  position: static;
+  margin: 0;
+  border-radius: 20px;
+  width: 500px;
+  height: 60px;
+  font-size: 150%;
+  background-color: #fff5ee;
+  color: #424242;
+  border-color: #424242;
+  transform: translate(230%, 1500%);
+  border-style: double;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:active{
+  background-color: #424242;
+  color: #fff5ee;
+}
+
+@media (min-width: 375px) {
+  .content{
+    font-family: "Cascadia Code";
+    color: #424242;
+    font-size: 150%;
+    position: absolute;
+    margin: 0;
+    transform: translate(5%, 200%)
+  }
+
+  .btn1{
+    position: static;
+    border-radius: 20px;
+    margin: 0;
+    width: 200px;
+    height: 50px;
+    font-size: 150%;
+    background-color: #fff5ee;
+    color: #424242;
+    border-color: #424242;
+    transform: translate(46%, 750%);
+    border-style: double;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .btn2{
+    position: static;
+    margin: 0;
+    border-radius: 20px;
+    width: 350px;
+    height: 60px;
+    font-size: 150%;
+    background-color: #fff5ee;
+    color: #424242;
+    border-color: #424242;
+    transform: translate(8%, 650%);
+    border-style: double;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+}
+
+@media (min-width: 720px) {
+  .content{
+    font-family: "Cascadia Code";
+    color: #424242;
+    font-size: 200%;
+    position: absolute;
+    margin: 0;
+    transform: translate(15%, 200%)
+  }
+
+  .btn1{
+    position: static;
+    border-radius: 20px;
+    margin: 0;
+    width: 200px;
+    height: 50px;
+    font-size: 150%;
+    background-color: #fff5ee;
+    color: #424242;
+    border-color: #424242;
+    transform: translate(60%, 700%);
+    border-style: double;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .btn2{
+    position: static;
+    margin: 0;
+    border-radius: 20px;
+    width: 350px;
+    height: 60px;
+    font-size: 150%;
+    background-color: #fff5ee;
+    color: #424242;
+    border-color: #424242;
+    transform: translate(-25%, 730%);
+    border-style: double;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+}
+
+@media (min-width: 1440px) {
+  .content{
+    font-family: "Cascadia Code";
+    color: #424242;
+    font-size: 250%;
+    position: absolute;
+    margin: 0;
+    transform: translate(30%, 200%)
+  }
+
+  .btn1{
+    position: static;
+    margin: 0;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 150%;
+    background-color: #fff5ee;
+    color: #424242;
+    border-color: #424242;
+    transform: translate(250%, 900%);
+    border-style: double;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .btn2{
+    position: static;
+    margin: 0;
+    border-radius: 20px;
+    width: 500px;
+    height: 60px;
+    font-size: 150%;
+    background-color: #fff5ee;
+    color: #424242;
+    border-color: #424242;
+    transform: translate(140%, 1350%);
+    border-style: double;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+}
+
+@media (min-width: 1878px) {
+  .content{
+    font-family: "Cascadia Code";
+    color: #424242;
+    font-size: 250%;
+    position: absolute;
+    margin: 0;
+    transform: translate(30%, 200%)
+  }
+
+  .btn1{
+    position: static;
+    margin: 0;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 150%;
+    background-color: #fff5ee;
+    color: #424242;
+    border-color: #424242;
+    transform: translate(250%, 900%);
+    border-style: double;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .btn2{
+    position: static;
+    margin: 0;
+    border-radius: 20px;
+    width: 500px;
+    height: 60px;
+    font-size: 150%;
+    background-color: #fff5ee;
+    color: #424242;
+    border-color: #424242;
+    transform: translate(230%, 1360%);
+    border-style: double;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+}
+
+@media (min-width: 1917px) {
+  .content{
+    font-family: "Cascadia Code";
+    color: #424242;
+    font-size: 250%;
+    position: absolute;
+    margin: 0;
+    transform: translate(30%, 200%)
+  }
+
+  .btn1{
+    position: static;
+    margin: 0;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 150%;
+    background-color: #fff5ee;
+    color: #424242;
+    border-color: #424242;
+    transform: translate(250%, 900%);
+    border-style: double;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .btn2{
+    position: static;
+    margin: 0;
+    border-radius: 20px;
+    width: 500px;
+    height: 60px;
+    font-size: 150%;
+    background-color: #fff5ee;
+    color: #424242;
+    border-color: #424242;
+    transform: translate(240%, 1500%);
+    border-style: double;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+}
