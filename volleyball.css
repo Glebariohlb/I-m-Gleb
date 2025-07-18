@@ -81,10 +81,12 @@ nav{
   }
 
   article{
+    font-family: 'Cascadia Code';
     max-width: 341px;
   }
 
   .text-place{
+    font-family: 'Cascadia Code';
     color: #424242;
     font-size: 150%;
     height: fit-content;
