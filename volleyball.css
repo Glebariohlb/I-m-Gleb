@@ -73,7 +73,7 @@ nav{
   }
 
   .mobile-only{
-    font-family: 'Cascadia Code';
+    font-family: "Cascadia Code";
     color: #424242;
     font-size: 140%;
     transform: translate(12%, 8%);
@@ -81,12 +81,12 @@ nav{
   }
 
   article{
-    font-family: 'Cascadia Code';
+    font-family: "Cascadia Code";
     max-width: 341px;
   }
 
   .text-place{
-    font-family: 'Cascadia Code';
+    font-family: "Cascadia Code";
     color: #424242;
     font-size: 150%;
     height: fit-content;
@@ -97,7 +97,7 @@ nav{
     border: 2px double #424242;
     padding: 13px;
     max-width: 355px;
-    font-family: 'Cascadia Code';
+    font-family: "Cascadia Code";
     transform: translate(3.5%, 20%); 
     background-color: #f0e5de;
   }
@@ -133,7 +133,7 @@ nav{
   }
 
   .tablet-only{
-    font-family: 'Cascadia Code';
+    font-family: "Cascadia Code";
     color: #424242;
     font-size: 150%;
     transform: translate(3%, 20%);
